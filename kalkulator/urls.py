@@ -10,6 +10,5 @@ from . import views
 
 
 urlpatterns = [
-    path('', RedirectView.as_view(url='Krupp/')),
-    path('<nazwisko>/', views.HomePage.as_view()),
+    path('', views.viewpog),
 ]
